@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x64</Platforms>
+    <ApplicationIcon>Assets\5000_1.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.DryIoc" Version="9.0.537" />
+
+    <Resource Include="Assets\5000_1.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Yell.Core\Yell.Core.csproj" />
+    <ProjectReference Include="..\Yell.Infrastructure\Yell.Infrastructure.csproj" />
+    <ProjectReference Include="..\Yell.Modules.Acquisition\Yell.Modules.Acquisition.csproj" />
+    <ProjectReference Include="..\Yell.Modules.History\Yell.Modules.History.csproj" />
+    <ProjectReference Include="..\Yell.Modules.Monitor\Yell.Modules.Monitor.csproj" />
+  </ItemGroup>
+
+</Project>

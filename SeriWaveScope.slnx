@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="src/Yell/Yell.csproj" />
+  <Project Path="src/Yell.Core/Yell.Core.csproj" />
+  <Project Path="src/Yell.Infrastructure/Yell.Infrastructure.csproj" />
+  <Project Path="src/Yell.Modules.Acquisition/Yell.Modules.Acquisition.csproj" />
+  <Project Path="src/Yell.Modules.Monitor/Yell.Modules.Monitor.csproj" />
+  <Project Path="src/Yell.Modules.History/Yell.Modules.History.csproj" />
+</Solution>

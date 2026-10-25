@@ -1,0 +1,34 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- 深色主题色板。所有键名与 Colors.Light.xaml 保持一致 -->
+    <SolidColorBrush x:Key="Brush.WindowBackground" Color="#0B1220" />
+    <SolidColorBrush x:Key="Brush.SidebarBackground" Color="#0F172A" />
+    <SolidColorBrush x:Key="Brush.CardBackground" Color="#172033" />
+    <SolidColorBrush x:Key="Brush.CardBorder" Color="#22314A" />
+
+    <SolidColorBrush x:Key="Brush.TextPrimary" Color="#E6EDF7" />
+    <SolidColorBrush x:Key="Brush.TextSecondary" Color="#94A3B8" />
+    <SolidColorBrush x:Key="Brush.TextMuted" Color="#64748B" />
+
+    <SolidColorBrush x:Key="Brush.Accent" Color="#38BDF8" />
+    <SolidColorBrush x:Key="Brush.AccentSoft" Color="#15324A" />
+    <SolidColorBrush x:Key="Brush.AccentForeground" Color="#062033" />
+
+    <SolidColorBrush x:Key="Brush.Success" Color="#34D399" />
+    <SolidColorBrush x:Key="Brush.SuccessSoft" Color="#12362E" />
+    <SolidColorBrush x:Key="Brush.Danger" Color="#F87171" />
+    <SolidColorBrush x:Key="Brush.DangerSoft" Color="#3A1D24" />
+    <SolidColorBrush x:Key="Brush.Warning" Color="#FBBF24" />
+
+    <SolidColorBrush x:Key="Brush.InputBackground" Color="#0F1A2B" />
+    <SolidColorBrush x:Key="Brush.InputBorder" Color="#2A3A52" />
+    <SolidColorBrush x:Key="Brush.HoverBackground" Color="#1E2B40" />
+    <SolidColorBrush x:Key="Brush.SelectedBackground" Color="#1B3A5C" />
+
+    <SolidColorBrush x:Key="Brush.Tx" Color="#60A5FA" />
+    <SolidColorBrush x:Key="Brush.Rx" Color="#34D399" />
+    <SolidColorBrush x:Key="Brush.Divider" Color="#22314A" />
+    <SolidColorBrush x:Key="Brush.HeaderBackground" Color="#121C2D" />
+
+</ResourceDictionary>
